@@ -1,7 +1,7 @@
 {
-  "name": "budget-app",
+  "name": "Balance-is-Key",
   "version": "1.0.0",
-  "description": "",
+  "description": "Online/offline progressive web app for money tracking",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "https://github.com/keiththarp/Balance-Is-Key"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "email": "keithstharp@gmail.com"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://balance-is-key.herokuapp.com/",
   "dependencies": {
     "compression": "^1.7.4",
     "dotenv": "^8.2.0",
