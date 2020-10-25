@@ -1,67 +1,46 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Balance-Is-Key
 "Better learn balance, balance is Key. – Lesson not just karate only. Lesson for whole life. Whole life have a balance. Everything be better."  - Mr. Miyagi
+Knowing your balance at all times is key too, that's where 'Balance Is Key' comes in! Keep track of your deposits and withdrawals whether you're connected or not, and always know what your balance is.
 
+[You can view the deployed app here:](https://balance-is-key.herokuapp.com/ "View Balance Is Key") https://balance-is-key.herokuapp.com/
+![Balance Is Key screen shot](./public/images/Screen Shot 2020-10-25 at 5.55.18 PM.png)
 
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+## Table of Contents
+- [Usage](#How-to-use)
+- [Technologies](#Languages-and-Lessons)
+- [Contribute](#How-to-contribute)
+- [Questions](#Developed-by)
+- [Credits](#Acknowledgments-and-Credits)
+- [License](#Licensed-under-MIT)
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+## How to use
+The app is very easy to use. Head to https://balance-is-key.herokuapp.com/, add your starting balance, then keep track of expenses as you go.
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+## Technologies
+ - Node.js
+ - Express
+ - MongoDB/Atlas
+ - Mongoose
+ - Heroku
 
-Offline Functionality:
+The exercises in this project focussed on learning progressive web app technologies, and providing users the ability to use app functionality even when they are offline.
 
-  * Enter deposits offline
+## How to contribute
+If anyone would like to improve the app by contributing, they're welcome to fork it and submit a pull request on [GitHub](https://github.com/keiththarp/Mongo-Workout-Watcher).
 
-  * Enter expenses offline
+## Developed by
+- [Keith Tharp](https://github.com/keiththarp)
 
-When brought back online:
+Please reach out with questions at:
+  - keithstharp@gmail.com
 
-  * Offline entries should be added to tracker.
+Find more of Keith Tharp's work at:
+  - https://github.com/keiththarp
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+## Acknowledgments and Credits
+Thank you to all my fellow students and study groups that helped and supported with this homework project!
 
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
-
-
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
-
-- - -
-
-## Commit Early and Often
-
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
+## Licensed under MIT
+[Click here for more information on the MIT license.](https://choosealicense.com/licenses/mit/)
 
